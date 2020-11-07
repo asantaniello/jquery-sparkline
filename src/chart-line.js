@@ -325,7 +325,7 @@
                     spotRadius, undefined,
                     options.get('spotColor')).append();
             }
-            if (this.maxy !== this.minyorg) {
+/*            if (this.maxy !== this.minyorg) {
                 if (spotRadius && options.get('minSpotColor')) {
                     x = xvalues[$.inArray(this.minyorg, yvalues)];
                     target.drawCircle(canvasLeft + Math.round((x - this.minx) * (canvasWidth / rangex)),
@@ -340,7 +340,7 @@
                         spotRadius, undefined,
                         options.get('maxSpotColor')).append();
                 }
-            }
+            }*/
 
             this.lastShapeId = target.getLastShapeId();
             this.canvasTop = canvasTop;
