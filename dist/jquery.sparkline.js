@@ -1542,8 +1542,8 @@
             xvalues = this.xvalues;
             yvalues = this.yvalues;
 
-            if (!this.yminmax.length || this.yvalues.length < 2) {
-                // empty or all null valuess
+            if (!this.yminmax.length || this.yvalues.length < 1) {
+                // empty or all null values
                 return;
             }
 
